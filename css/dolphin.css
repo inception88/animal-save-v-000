@@ -26,4 +26,11 @@ html {
     right: 120px;
     transform: rotate(0.75turn)
   }
+  @media only screen and (max-width: 641px) {
+    #dolphin {
+      position: absolute;
+      top: 400px;
+      right: 120px;
+      transform: rotate(0.5turn)
+    }
 }
